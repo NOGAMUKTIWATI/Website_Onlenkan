@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div className="container mx-auto">
       <Hero />
-      {/* <About />
-      <Service />
+      <About />
+      {/* <Service />
       <Portfollio /> */}
       <Contact />
     </div>
