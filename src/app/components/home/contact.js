@@ -16,7 +16,6 @@ export default function contact() {
       </div>
       <div className="p-5 flex justify-center">
         <img
-          class="max-w-2xl w-full rounded-lg"
           src="./images/contact-us.jpg"
           alt=""
           className="lg:max-w-lg w-full max-w-full"
