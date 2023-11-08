@@ -1,7 +1,6 @@
-import { Inter } from "next/font/google";
 import { Plus_Jakarta_Sans } from "next/font/google";
-import "./globals.css";
 import Navbar from "./components/navbar/navbar";
+import "./globals.css";
 
 // const inter = Inter({ subsets: ['latin'] })
 const pjs = Plus_Jakarta_Sans({ subsets: ["latin"] });
