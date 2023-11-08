@@ -5,7 +5,7 @@ export default function hero() {
         <h2 className="text-5xl font-bold tracking-tighter">
           Perluas Jangkauan Bisnis Anda dengan Website
         </h2>
-        <p className="text-sm text-gray-400">
+        <p className="text-sm text-neutral-500">
           Website telah menjadi kebutuhan dasar untuk mengembangkan bisnis Anda
           di era digital ini. Oleh sebab itu, #onlenkanbisnismu untuk naik ke
           level dunia!
