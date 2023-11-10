@@ -10,9 +10,9 @@ export default function hero() {
           di era digital ini. Oleh sebab itu, #onlenkanbisnismu untuk naik ke
           level dunia!
         </p>
-        <button className="btn">Hubungi Kami</button>
+        <button className="btn font-bold">Hubungi Kami</button>
       </div>
-      <div className="p-5 flex justify-center">
+      <div className="p-5 flex justify-end">
         <img
           src="./images/header-img.png"
           alt=""

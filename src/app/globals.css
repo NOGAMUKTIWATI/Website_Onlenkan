@@ -6,4 +6,7 @@
   .btn {
     @apply bg-theme-primary px-5 rounded-md py-2 text-white text-sm;
   }
+  .active-menu {
+    @apply text-theme-primary font-bold;
+  }
 }

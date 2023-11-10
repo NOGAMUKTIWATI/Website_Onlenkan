@@ -12,7 +12,7 @@ export default function contact() {
           Kami siap membantu dan menolong bisnis anda, hubungi kami untuk
           berdiskusi, GRATIS!
         </p>
-        <button className="btn">Selengkapnya</button>
+        <button className="btn font-bold">Hubungi Kami</button>
       </div>
       <div className="p-5 flex justify-center">
         <img

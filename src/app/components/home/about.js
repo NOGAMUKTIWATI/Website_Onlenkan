@@ -1,7 +1,7 @@
 export default function about() {
   return (
-    <div className="lg:flex grid grid-cols-1 p-5 gap-5 w-full justify-center">
-      <div className="p-2 w-full">
+    <div className="lg:flex grid grid-cols-1 p-5 gap-5 w-full justify-center pb-20">
+      <div className="lg:p-2 p-0 w-full">
         <img
           src="./images/homepage-about-image.jpg"
           alt=""
@@ -9,17 +9,19 @@ export default function about() {
         />
       </div>
       <div className="p-2 w-full space-y-8 lg:mt-28 mt-0">
-        <p className="text-theme-primary text-xs font-bold">ABOUT US</p>
-        <h2 className="font-bold text-4xl max-w-lg">
-          Fokus kelola bisnis Anda, biar kami yang
-          <span className="text-theme-primary ml-2">Onlenkan!</span>
-        </h2>
+        <div className="head-title space-y-3">
+          <p className="text-theme-primary text-xs font-bold">ABOUT US</p>
+          <h2 className="font-bold text-4xl max-w-lg">
+            Fokus kelola bisnis Anda, biar kami yang
+            <span className="text-theme-primary ml-2">Onlenkan!</span>
+          </h2>
+        </div>
         <p className="tracking-tight max-w-lg text-neutral-500 text-sm">
           Kami adalah tim programmer dan desainer millenial profesional yang
           telah membuat banyak website menarik dan produk digital lainnya yang
           cocok untuk segala kebutuhan bisnis Anda di era industri 4.0.
         </p>
-        <button className="btn">Selengkapnya</button>
+        <button className="btn font-bold">Selengkapnya</button>
         <div className="flex gap-10 w-full">
           <div className="">
             <h2 className="font-bold text-2xl">50+</h2>
