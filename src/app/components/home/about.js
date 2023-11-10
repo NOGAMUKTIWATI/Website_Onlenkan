@@ -5,7 +5,7 @@ export default function about() {
         <img
           src="./images/homepage-about-image.jpg"
           alt=""
-          className="rounded-lg max-w-lg mx-auto mt-32 w-full"
+          className="rounded-lg lg:max-w-lg mx-auto mt-32 w-full"
         />
       </div>
       <div className="p-2 w-full space-y-8 lg:mt-28 mt-0">
