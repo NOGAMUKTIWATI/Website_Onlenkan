@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
       <body className={pjs.className}>
         <Navbar />
         {children}
+        {/* footer */}
       </body>
     </html>
   );
