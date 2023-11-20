@@ -1,6 +1,6 @@
 export default function card({ image, title, description }) {
   return (
-    <div className="card p-8 bg-white text-center space-y-5 rounded-md w-full">
+    <div className="card p-8 bg-white text-center space-y-5 rounded-md w-full transform translate-y-0 hover:-translate-y-5 transition-all">
       <div className="flex justify-center">
         <img
           src={image}

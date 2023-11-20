@@ -10,3 +10,8 @@
     @apply text-theme-primary font-bold;
   }
 }
+
+::selection {
+  background-color: #3b55c3;
+  color: white;
+}

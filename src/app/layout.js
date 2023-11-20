@@ -3,7 +3,6 @@ import Navbar from "./components/navbar/navbar";
 import Footer from "./components/footer/footer";
 import "./globals.css";
 
-
 // const inter = Inter({ subsets: ['latin'] })
 const pjs = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -18,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className={pjs.className}>
         <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
